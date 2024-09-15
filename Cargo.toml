@@ -1,0 +1,9 @@
+[package]
+name = "tokio_io_exemples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.39.3", features = ["full"] }
+mini-redis = "0.4"
+bytes = "1"
